@@ -1,8 +1,6 @@
 import streamlit as st
 from googletrans import Translator
-import numpy as np
-from tensorflow.keras.models import Model, load_model
-from tensorflow.keras.layers import Input, LSTM, Dense
+
 
 language_mapping = {
    "Bengali": "bn",
